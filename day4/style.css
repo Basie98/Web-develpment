@@ -1,0 +1,71 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --button-bg: #333333;
+    --button-text: #ffffff;
+    --border-color: #cccccc;
+}
+
+body.dark {
+    --bg-color: #222222;
+    --text-color: #ffffff;
+    --button-bg: #ffffff;
+    --button-text: #222222;
+    --border-color: #555555;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 16px;
+    margin-right: 8px;
+    border: none;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
