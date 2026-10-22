@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was system design, especially understanding how to build a system that can handle many users at the same time. At first, it was challenging to understand how databases, APIs, servers, and caching work together. I overcame this by breaking the problem into smaller parts, following the six-part design framework, and practising with projects such as QuickNotes. I also learned that database transactions and constraints are important for preventing two people from buying the same seat.
+
+Based on the feedback I received on my capstone project, I would improve the production architecture and make my technical documentation more detailed. I would provide clearer traffic estimates, explain the API endpoints and error responses, and improve the database design by showing the relationships between tables. I would also make sure that all required files are included and that the documentation is complete before submitting my work.
+
+Next, I want to learn more about cloud computing, especially Microsoft Azure, databases, and deploying applications online. I also want to improve my JavaScript skills and learn how to build and connect a real backend API to a frontend application. My goal is to understand how to build secure, reliable, and scalable applications that can handle real-world users. I will continue practising through small projects, testing my code, and learning from feedback.
